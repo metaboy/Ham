@@ -485,7 +485,7 @@ ol {
 .feature i {
 	font-size: 48px;
 	float: left;
-	padding-top: 10px;
+	/* padding-top: 10px; */
 }
 
 .feature .feature-content {
@@ -830,7 +830,7 @@ ol {
 	min-width: 140px;
 	background: #fff;
 	color: #20509e;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 600;
 	cursor: pointer;
 }
@@ -881,8 +881,8 @@ ol {
 }
 
 .blog-text .blog-title {
-	font-size: 22px;
-	margin-bottom: 20px;
+	font-size: 25px;
+	margin-bottom: 25px;
 }
 
 .blog-text .blog-title a {
@@ -1649,6 +1649,8 @@ ol {
 	.review-text {
 		padding: 0 60px;
 	}
+
+
 	.review-text-slider .owl-nav {
 		padding-top: 0;
 		position: absolute;
@@ -1877,44 +1879,61 @@ ol {
 /* hamid style */
 
 .site-btn {
-
 	font-family: IRANSans !important ;
-
 }
-input {
 
+input {
 	font-family: IRANSans !important ;
 	text-align: right;
 	font-size: 14px;
 }
 
-h2{
-
+h2,h3,h4,h5,h6{
 	font-family: IRANSans !important ;
 }
+
 
 p{
 	font-family: IRANSans !important ;
-
 }
 
-a{
-
+ span  {
 	font-family: IRANSans !important ;
+	/* font-size: 14px !important; */
+}
+
+
+a{
+ font-family: IRANSans !important ;
 }
 
 .title-txt{
-
 	text-align: right;
 }
 
 .hero-text {
-
 	text-align: center;
 }
 
 .mj-logo{
-
 	width: 260px;
 	height: 100px;
+}
+
+.btn-sbt{
+
+	font-family: IRANSans !important ;
+	
+}
+
+
+.p-rtl{
+
+	text-align: right;
+	float: right !important;
+}
+
+.m-r {
+
+	margin-right: 10px;
 }
